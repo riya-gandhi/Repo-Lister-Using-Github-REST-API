@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.884);
+    /* border-color: white; */
+    /* border-style: solid; */
+    height: 10vh;
+}
+.work-area{
+    background-color: black;
+    /* border-color: white;
+    border-style: solid; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.profile-overview{
+    border-color: white;
+    border-style: solid;
+    width: 30vw;
+}
+.profile-picture{
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    height: 63vh;
+}
+.github-full-name{
+    border-color: white;
+    border-style: solid;
+    height: 14vh;
+}
+.repo-list{
+    /* border-color: white;
+    border-style: solid; */
+    width: 70vw;
+}
